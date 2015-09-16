@@ -4,9 +4,8 @@ lsst-pypackage
 
 LSST template for a Python package. See https://github.com/lsst-ts/lsst-pypackage
 
-* Free software: BSD license
 * Vanilla testing setup with `unittest` and `python setup.py test`
-* Travis-CI_: Ready for Travis Continuous Integration testing
+* Jenkins_: LSST Jenkins continous integration is configured with travis.yml plugin
 * Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 
@@ -20,7 +19,7 @@ Generate a Python package project::
 Then:
 
 * Create a repo and put it there.
-* Add the repo to your Travis CI account.
+* Add the repo to the LSST Jenkins server https://ts-ci.lsst.org:8080/
 * Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
 * Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987
 
