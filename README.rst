@@ -26,3 +26,4 @@ Then:
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
 .. _ReadTheDocs: https://readthedocs.org/
+.. _Jenkins: https://jenkins-ci.org/
